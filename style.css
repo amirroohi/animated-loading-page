@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+
+}
+.text{
+    width: 25vw;
+    color: rgb(224, 238, 238);
+    opacity: 0.2;
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    font-stretch: extra-expanded;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    top: 400px;
+    left: 39vw;
+}
+.content{
+    width: 35.5vw;
+    height: 10vh;
+    border: 3px solid rgb(212, 212, 212);
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+    top: 20rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ball{
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #f8b080;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    animation: loading 2.5s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes loading{
+  0% {
+    left: 0vw ;
+    width: 26px;
+    height: 74px;
+  }
+  5% {
+    left: 3.2vw ;
+    width: 38px;
+    height: 62px;
+  }
+  10% {
+    left: 6.4vw ;
+    width: 50px;
+    height: 50px;
+  }
+  15% {
+    left: 9.6vw ;
+    width: 50px;
+    height: 50px;
+  }
+  20% {
+    left: 12.8vw ;
+    width: 50px;
+    height: 50px;
+  }
+  25% {
+    left: 16vw ;
+    width: 50px;
+    height: 50px;
+  }
+  30% {
+    left: 19.2vw ;
+    width: 50px;
+    height: 50px;
+  }
+  35% {
+    left: 22.4vw ;
+    width: 50px;
+    height: 50px;
+  }
+  40% {
+    left: 25.6vw ;
+    width: 50px;
+    height: 50px;
+  }
+  45% {
+    left: 28.8vw ;
+    width: 38px;
+    height: 62px;
+  }
+  50% {
+    left: 32vw ;
+    width: 26px;
+    height: 74px;
+  }
+  55% {
+    left: 28.8vw ;
+    width: 38px;
+    height: 62px;
+  }
+  60% {
+    left: 25.6vw ;
+    width: 50px;
+    height: 50px;
+  }
+  65% {
+    left: 22.4vw ;
+    width: 50px;
+    height: 50px;
+  }
+  70% {
+    left: 19.2vw ;
+    width: 50px;
+    height: 50px;
+  }
+  75% {
+    left: 16vw ;
+    width: 50px;
+    height: 50px;
+  }
+  80% {
+    left: 12.8vw ;
+    width: 50px;
+    height: 50px;
+  }
+  85% {
+    left: 9.6vw ;
+    width: 50px;
+    height: 50px;
+  }
+  90% {
+    left: 6.4vw ;
+    width: 50px;
+    height: 50px;
+  }
+  95% {
+    left: 3.2vw ;
+    width: 38px;
+    height: 62px;
+  }
+  100% {
+    left: 0vw ;
+    width: 26px;
+    height: 74px;
+  }
+}
